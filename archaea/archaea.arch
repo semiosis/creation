@@ -1,0 +1,15 @@
+# An archaea is an evolutionary pipeline from an idea to conception
+
+name: "Archaea"
+
+proto:
+- ext: sperm
+- repo: panspermia
+
+meta:
+- ext: cond
+- repo: conditions
+
+actual:
+- ext: arch
+- repo: archaea
