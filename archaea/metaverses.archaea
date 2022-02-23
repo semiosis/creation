@@ -1,7 +1,13 @@
 name: "Metaverse"
 
-# Repos are optional
-repos:
-- proto: cosmogonies
-- meta: protoverses
-- actual: metaverses
+proto:
+- ext: cosmog
+- repo: cosmogonies
+
+meta:
+- ext: protov
+- repo: protoverses
+
+actual:
+- ext: metav
+- repo: metaverses

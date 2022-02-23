@@ -1,7 +1,13 @@
 name: "Incarnation"
 
-# Repos are optional
-repos:
-- proto: archetypes
-- meta: personalities
-- actual: incarnations
+proto:
+- ext: arch
+- repo: archetypes
+
+meta:
+- ext: person
+- repo: personalities
+
+actual:
+- ext: incarnate
+- repo: incarnations

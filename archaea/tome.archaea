@@ -1,7 +1,13 @@
 name: "Tome"
 
-# Repos are optional
-repos:
-- proto: scribes
-- meta: scrolls
-- actual: tomes
+proto:
+- ext: scribe
+- repo: scribes
+
+meta:
+- ext: scroll
+- repo: scrolls
+
+actual:
+- ext: tome
+- repo: tomes
