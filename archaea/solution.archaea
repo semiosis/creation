@@ -11,5 +11,5 @@ meta:
 - repo: designs
 
 actual:
-- ext: solution
+- ext: soln
 - repo: solutions
