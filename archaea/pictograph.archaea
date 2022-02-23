@@ -1,0 +1,7 @@
+name: "Pictograph"
+
+# Repos are optional
+repos:
+- proto: muses
+- meta: motifs
+- actual: pictographs

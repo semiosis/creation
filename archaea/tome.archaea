@@ -1,0 +1,7 @@
+name: "Tome"
+
+# Repos are optional
+repos:
+- proto: scribes
+- meta: scrolls
+- actual: tomes
