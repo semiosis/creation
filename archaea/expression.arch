@@ -2,14 +2,19 @@
 
 name: "Expression"
 
-proto:
-- ext: feeling
-- repo: feelings
-
-meta:
-- ext: idea
-- repo: ideas
-
-actual:
-- ext: exp
-- repo: exps
+creations:
+- feeling:
+  - ext: feeling
+  - repo: feelings
+  - next:
+    - idea
+  
+- idea:
+  - ext: idea
+  - repo: ideas
+  - next:
+    - expression
+  
+- expression:
+  - ext: exp
+  - repo: expressions

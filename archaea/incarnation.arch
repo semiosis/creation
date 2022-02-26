@@ -4,12 +4,14 @@ creations:
 - archetype:
   - ext: arch
   - repo: archetypes
-  - next: personality
+  - next:
+    - personality
 
 - personality:
   - ext: person
   - repo: personalities
-  - name: incarnation
+  - name:
+    - incarnation
 
 - incarnation:
   - ext: incarnate

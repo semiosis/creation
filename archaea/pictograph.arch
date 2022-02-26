@@ -1,13 +1,18 @@
 name: "Pictograph"
 
-proto:
-- ext: muse
-- repo: muses
-
-meta:
-- ext: motif
-- repo: motifs
-
-actual:
-- ext: pict
-- repo: pictograph
+creations:
+- muse:
+  - ext: muse
+  - repo: muses
+  - next:
+    - motif
+  
+- motif:
+  - ext: motif
+  - repo: motifs
+  - next:
+    - pictograph
+  
+- pictograph:
+  - ext: pict
+  - repo: pictographs
